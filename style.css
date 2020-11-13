@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url(image/body-bg.png)no-repeat center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#sliderSec{
+    overflow: hidden;
+}
+
+
+
+
+/*   Start Header    */
+
+.header {
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.headWrapper {
+    overflow: hidden;
+}
+
+.headLogo {
+    width: 200px;
+    float: left;
+    margin: 35px 0;
+}
+
+.headItem {
+    float: right;
+}
+
+.headItem ul li {
+    float: left;
+    margin-left: 48px;
+    font-family: rubik;
+    font-weight: 500;
+}
+
+.headItem ul {
+    margin: 44px 0;
+    font-size: 16px;
+}
+
+.headItem ul li a {
+    color: #000000;
+    transition: 0.2s;
+}
+
+#homeI {
+    color: #4458dc;
+}
+
+.headItem ul li a:hover{
+    color: #4458dc; 
+}
+
+/*   End Header    */
+
+
+/* Start Slider */
+
+
+.sectionWrapper {
+    overflow: hidden;
+}
+
+.sliderBanner {
+    overflow: hidden;
+}
+
+.sliderText h3 {
+    width: 285px;
+    font-size: 45px;
+    font-weight: 500;
+    position: relative;
+}
+
+.sliderText h3:after {
+    content: '';
+    position: absolute;
+    left: 55%;
+    top: 52%;
+    background: #000000;
+    width: 400px;
+    height: 2px;
+}
+
+.sliderText {width: 59%;}
+
+.sliderText h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.sliderText h5 {
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: 4px;
+}
+
+
+.adaparcentage {
+    width: 100%;
+    float: left;
+}
+
+.imgpart {
+    /* width: 20%; */
+}
+
+.sliderRImage img {
+    position: absolute;
+    height: 435px;
+    right: 3px;
+}
+
+.sliderRImage {
+    position: relative;
+}
+
+.hireMeBtn button {
+    padding: 13px 40px;
+    border-radius: 8px;
+    outline: none;
+    background: linear-gradient(45deg, #4458dc, #854fee);
+    transition: 0.3s;
+    float: left;
+    margin-right: 30px;
+    border: 2px solid #7751EA;
+    outline: none !important;
+}
+
+.hireMeBtn button a {
+    color: white;
+    font-size: 15px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.hireMeBtn button:hover{
+    background: white;
+    cursor: pointer;
+}
+
+.hireMeBtn button:hover a{
+    color: black;
+}
+
+#sliBtn{
+    background:  white;
+    /* border: #7751EA; */
+}
+
+#sliBtn a{
+    color: #000000;
+}
+
+#sliBtn:hover{
+    background:  linear-gradient(45deg, #4458dc, #854fee);
+}
+
+#sliBtn:hover a{
+    color: white;
+}
+
+
+section#aboutMe {
+    overflow: hidden;
+    padding: 150px 0;
+}
+
+.aboutWrapper {
+    overflow: hidden;
+}
+
+.aboutMescndwrap {
+    overflow: hidden;
+}
+
+.aboutImg {
+    width: 50%;
+    float: left;
+}
+
+.aboutImg img {
+    width: 85%;
+}
+
+.aboutContant h1 {font-size: 40px;line-height: 50px;font-weight: 700;margin-bottom: 0;}
+
+.aboutContant {
+    width: 96%;
+}
+
+.aboutContant p {
+    color: #777777;
+    line-height: 30px;
+}
+
+.aboutMeBtn button {
+    padding: 15px 50px;
+    border: 2px solid #7552EA;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+    transform: 0.3s;
+    margin-top: 20px
+}
+
+.aboutMeBtn button a {
+    color: white;
+    font-weight: 700;
+}
+
+.aboutMeBtn button:hover{
+    background: white;
+    
+}
+
+.aboutMeBtn button:hover a{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#experiance{
+    overflow: hidden;
+    padding: 75px 0;
+}
+
+.experianceWrapper {
+    overflow: hidden;
+}
+
+.containerWrapper {
+    overflow: hidden;
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.experianeTimeanddescwrapper {
+    width: 60%;
+    float: left;
+}
+
+.experianceTime {
+    font-size: 115px;
+    color: #854FEE;
+    float: left;
+    line-height: 0px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.experiancedesc {
+    margin-top: 90px;
+}
+
+.experianceTime:after{
+    background: url(image/client-info-bg.png);
+    content: '';
+    height: 175px;
+    width: 175px;
+    left: -11%;
+    top: 19%;
+    position: absolute;
+}
+
+.contactExperianceMe {
+    font-size: 120px;
+    float: left;
+    margin-right: 20px;
+}
+
+.contactOf h3 {
+    color: #854FEE;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    padding-top: 29px;
+}
+
+.contactOf h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 0;
+}
+
+.experiancedesc h2 {font-weight: 200;font-size: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section#secviceOffer {
+    overflow: hidden;
+    padding: 75px 0;
+}
+
+.servicesWrapper {
+    overflow: hidden;
+}
+
+.serviceofferWrapper {
+    overflow: hidden;
+}
+
+.setviceTitle {
+    text-align: center;
+}
+
+.setviceTitle h1 {
+    font-size: 37px;
+    margin: 0;
+}
+
+.setviceTitle p {
+    padding: 0px 256px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: .5px;
+    margin-bottom: 80px;
+    color: #777777;
+}
+
+.serviceSinglebox {
+    width: 255px;
+    float: left;
+    background: #f9f9fd;
+    border-radius: 5px;
+    margin-right: 37px;
+    margin-bottom: 10px;
+    transition: 0.5s
+}
+
+.servicesIconimg {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.serviceSboxdesc {
+    text-align: center;
+}
+
+.serviceSboxdesc h2 {
+    margin-top: 33px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.serviceSboxdesc p {
+    color: #777777;
+    padding: 0px 16px;
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.serviceSinglebox:last-child {
+    margin: 0;
+}
+
+
+.serviceSinglebox:hover{
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.emailsendingcontainerWrapper{
+    background: url(image/subscribe-bg.png);
+    padding: 130px 0;
+}
+
+section#emailSendingaria {
+    overflow: hidden;
+}
+
+.titleEmailsending {
+    text-align: center;
+}
+
+.titleEmailsending h1 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.titleEmailsending p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.emailforInput {
+    float: left;
+}
+
+.subscribeEmailsending {overflow: hidden;}
+
+.emailButton {margin-top: 40px;}
+
+.emailforInput input {
+    padding: 18px;
+    width: 350px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid white;
+    background: #6154E4;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.emailforInput {
+    margin-left: 21%;
+    margin-top: 40px;
+}
+
+.emailButton button {
+    padding: 15px 45px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fff;
+    transition: 0.3s
+}
+
+.emailButton button a {
+    color: #000000;
+    font-weight: 800;
+}
+
+.emailButton button:hover{
+    background: #854EEE;
+}
+
+.emailButton button:hover a{
+    color: #fff;
+}
+
+footer#footer {padding-top: 75px;padding-bottom: 25px;}
+
+.footerWrapper {}
+
+.imgandTitle h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footerIcons i {
+    font-size: 22px;
+    margin-bottom: 49px;
+}
+
+.footerIcons a {
+    margin-right: 30px;
+    color: #854EEE;
+    transition: 0.3s
+}
+
+.footerIcons a:hover{
+    color: #ff5200;
+}
+
+.copycightClaim {
+    text-align: center;
+    border-top: 1px solid #7B50EB;
+    margin: 0;
+    padding-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
